@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 50em;
+    padding: 1em;
+    margin: auto;
+    border: 1px solid green;
+}
+
+.message {
+    background-color: rgb(237, 255, 219);
+    padding: 1em;
+    margin: 1em 0;
+}
