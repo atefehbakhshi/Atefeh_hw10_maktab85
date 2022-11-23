@@ -1,0 +1,21 @@
+.paraghraph-border {
+  border-left: 0.5em solid #64a19d;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3em;
+  width: 3em;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 100%;
+  color: rgba(255, 255, 255, 0.3);
+}
+.social:hover{
+    color: rgba(255, 255, 255, 0.8);
+}
+@media (max-width: 992px) {
+  .paraghraph-border {
+    border-left: 0;
+  }
+}
